@@ -41,7 +41,7 @@ function App() {
           className="search-input"/>
           <button onClick={handleSearch} className="search-button">Search</button>
       </div>
-      {loading && <h4>Loading Data...</h4>}
+      {loading && <p>Loading Data...</p>}
       {error && <h6>{error}</h6>}
       {weatherData && (
         <div className='weather-cards'>
